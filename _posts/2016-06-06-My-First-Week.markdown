@@ -39,9 +39,6 @@ The paper mockups that I designed for this process included  two different types
 
 For the final visual design I chose some of the old bootstrap-mockups designed by mo and updated them using the ideas given above.   
 
-/home/rkolathu/Desktop/g39457.png
-
-
    1. Happening now will let the user know of the meetings happening currently 
 
    2. This link would also allow the user to go to the IRC.  
