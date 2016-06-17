@@ -1,7 +1,7 @@
 ---
 layout: post
 Title: "My First Week"
-date: 2016-05-06
+date: 2016-06-17
 ---
 The first week at Redhat was an amazing learning experience in which I  spent time getting familiarized with the  fedora ecosystem. For starters fedora hubs is like collaboration and communication tool which allows both developers and non-developers to easily share ideas and contribute to the open source community.   
 
@@ -27,18 +27,23 @@ There were some edge cases like changing your attendance to no, IRC integration.
 
 As a first step to the design process, I understood the the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget.  
 
-# Design Process 
+# Design Process
 
 I started the design process by implementing the paper mockups of the calendar widgets. The methodology that I followed can be found here:  
 
 # Paper Mockups   
 
+
+
 The paper mockups that I designed for this process included  two different types of calendar widget mainly I.e monthly view and weekly view. I decided on two different views because it would be easier for the user to see the upcoming meetings for the this week and the next. This weekly view widget is more functional as the meetings happen weekly and it is easier to keep track on all current meetings for the week. Further, the calendar view would give them a glimpse of upcoming meetings in a particular month. 
+
 
 # Final Visual Design  
 
 For the final visual design I chose some of the old bootstrap-mockups designed by mo and updated them using the ideas given above.   
 
+![Final Mockups]({{ site.url }}https://s3-us-west-2.amazonaws.com/www.radhikamani.me/img/Blog+Files/FInalMockup.svg)
+   
    1. Happening now will let the user know of the meetings happening currently 
 
    2. This link would also allow the user to go to the IRC.  
@@ -59,7 +64,7 @@ I designed this widget keeping the mind the mobile responsiveness.
 
    1. I believe if we are designing for the open source community, we need to factor in the some of the disadvantages regarding this particular design specially with regards to the people with accessibility issues. 
 
-   2. Further, it will be great to have some visual style guides similar in lines of pattern fly for our fedora project.   
+   2. Further, it will be great to have some documentation similar in lines of pattern fly for our fedora project.   
 
  
 
