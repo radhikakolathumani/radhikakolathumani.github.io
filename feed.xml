@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radhika Kolathumani</title>
+    <description>Hi all, I am currently interning at Redhat for the summer in User Experience for the fedora project. I have started this blog to document my weekly experiences doing design challenges at redhat.
+</description>
+    <link>http://radhikakolathumani.github.io//</link>
+    <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Jun 2016 04:07:04 -0400</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 04:07:04 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>My Second Week</title>
+        <description>&lt;p&gt;I am in my second week and I am still getting used to using inkscape. I recently found out that inkscape has many functionalities that photoshop does not have. This was especially useful in case of importing and exporting images by directing selecting the required image or drawing. I found out that it is really useful feature that Adobe generally allows it by exporting the entire document. As I am starting to use it more and more, I figured inkscape to better and faster for vector graphics.&lt;/p&gt;
+
+&lt;p&gt;Another thing I worked on this week was Jekyll, I finally figured a way to upload my images and mockups. For starters Jekyll is a blog aware static website generator which allows users to share and post their material online. I am finding it very easy to use as compared to WordPress or any other blogging websites available online. Further, it has also allowed to me practice using the Linux command line. I am becoming better and faster at it each day. Thankfully due to the number of mistakes I have committed so far.&lt;/p&gt;
+
+&lt;p&gt;Well as for the rest, I also attended the lunch and learn session which is organized by redhat weekly. It gives us the chance to post and ask questions about redhat in general. I attended the Arun Oberoi session this week as he talked about how useful is to make mistakes. I remember in my initial days I was feeling under the weather about how many silly mistakes I had been making so far. His speech emphasized on how important is make mistakes and quickly learn and improve. This actually proved to be a really useful suggestion and I intend to apply that to my internship.&lt;/p&gt;
+
+&lt;p&gt;As for the tickets I worked on this week included the PlusPLus widget (https://pagure.io/fedora-hubs/issue/57). I found this to be a really interesting widget to work on, as it involved designing an experience similar to the one in IRC (without really using the IRC integration).&lt;/p&gt;
+
+&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
+
+&lt;p&gt;I brainstormed and sketched before the final mock up (which is posted here). I analyzed the pros and cons of each use-case that I had explored. After the initial brainstorming session, I quickly read up on how the widget will work under the hood. Currently the data for the ++ in IRC is stored in a python shelve file. The way it is written it is not suitable to be shared between the zodbot and the hubs page. So designing this widget might require a total rework of the zodbot plugin. Keeping this constraint in mind, I sketched some mockups for the widget.&lt;/p&gt;
+
+&lt;h2 id=&quot;target-audience&quot;&gt;Target Audience&lt;/h2&gt;
+
+&lt;p&gt;As a first step to the design process, I understood the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget. &lt;br /&gt;
+Paper mockups&lt;/p&gt;
+
+&lt;h2 id=&quot;final-design&quot;&gt;Final Design&lt;/h2&gt;
+
+&lt;p&gt;Exploring all the use cases in general, I prototype the final mockups in inkscape.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/IMG_20160608_093406.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/IMG_20160608_093406.jpg 480w,            /assets/resized/800/IMG_20160608_093406.jpg 800w,            /assets/resized/1400/IMG_20160608_093406.jpg 1400w,     /assets/IMG_20160608_093406.jpg 3264w&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The user profile will a ++ icon next to the picture which would allow any subscriber to give the ++ to the user. I thought this would be easy for the subscriber to find the particular icon since the ++ needs to be given to the user and not the action&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the subscriber gives a ++ to someone the icon then grays out. This is designed keeping in the mind the karma cycle, the icon becomes available after 6 months.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another use case that I can think of is what if the subscriber wanted to know the karma cycle of any user he/she is subscribed to ?. For this purpose, I kept a text field entry for the user’s page, Through which they can check their own and their subscriber’s current karma by using the IRC command karma username. (karma ryan). However this widget can be only accessible to the owner of that page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The subscriber page will have a karma notification in the stream. Whereas for the owner’s page, the stream will indicate the current karma for that user.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;5.I followed the same color scheme as per the fedora design guidelines and the font used is open sans.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Lastly, I have designed the widget keeping in mind the mobile responsiveness.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Moving on, I do have some improvements that I can think of in this design&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The name of the widget can be changed to something better ( instead of plus plus )&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The ++ icon can be designed more effectively.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Need to think more in terms of where the widget could be placed more strategically, one way that I can think of is by applying the fitt’s law.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;design-guidelines&quot;&gt;Design guidelines&lt;/h2&gt;
+
+&lt;p&gt;I followed the standard design guidelines for font and color palette for fedora.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 17 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//2016/06/17/issue-51.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/17/issue-51.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My First Week</title>
+        <description>&lt;p&gt;The first week at Redhat was an amazing learning experience in which I  spent time getting familiarized with the  fedora ecosystem. For starters fedora hubs is like collaboration and communication tool which allows both developers and non-developers to easily share ideas and contribute to the open source community.&lt;/p&gt;
+
+&lt;h1 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h1&gt;
+
+&lt;p&gt;I was assigned some issues to resolve in the fedora-hubs project. Issues category includes ideas or any other problem that needs to be resolved. These issues are discussed in pagure, a (much like github) channel for hosting Fedora projects. The first issue that was assigned to me was to design a personal calendar for the subscriber’s personal hub page. The link can be found here https://pagure.io/fedora-hubs/issue/91 (requires a FAS account login). For this process, I followed the User Centered design methodology.&lt;/p&gt;
+
+&lt;h1 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h1&gt;
+
+&lt;p&gt;Mo (My awesome mentor at Redhat ) and I initially brainstormed about the initial design use cases and edge cases for this widget. Some of the important use cases that were discussed included:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The widget can show all of the meeting times for the teams the user is a member of&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It will allow the user to click on the meeting in the calendar widget to get more details about the time / place, etc&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Real time update about the meeting which might be taking place in the hub&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A meeting suggestion feature which will be based on meetbot logs&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There were some edge cases like changing your attendance to no, IRC integration. But considering how useful that might be to our users, Mo and I thought it will be reasonable enough to implement the important use cases first and then try to incorporate more based on the users feedback on the mockups.&lt;/p&gt;
+
+&lt;h1 id=&quot;target-audience&quot;&gt;Target Audience&lt;/h1&gt;
+
+&lt;p&gt;As a first step to the design process, I understood the the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget.&lt;/p&gt;
+
+&lt;h1 id=&quot;design-process&quot;&gt;Design Process&lt;/h1&gt;
+
+&lt;p&gt;I started the design process by implementing the paper mockups of the calendar widgets. The methodology that I followed can be found here:&lt;/p&gt;
+
+&lt;h1 id=&quot;paper-mockups&quot;&gt;Paper Mockups&lt;/h1&gt;
+
+&lt;p&gt;The paper mockups that I designed for this process included  two different types of calendar widget mainly I.e monthly view and weekly view. I decided on two different views because it would be easier for the user to see the upcoming meetings for the this week and the next. This weekly view widget is more functional as the meetings happen weekly and it is easier to keep track on all current meetings for the week. Further, the calendar view would give them a glimpse of upcoming meetings in a particular month.&lt;/p&gt;
+
+&lt;h1 id=&quot;final-visual-design&quot;&gt;Final Visual Design&lt;/h1&gt;
+
+&lt;p&gt;For the final visual design I chose some of the old bootstrap-mockups designed by mo and updated them using the ideas given above.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/FInalMockup.svg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/FInalMockup.svg 480w,            /assets/resized/800/FInalMockup.svg 800w,     /assets/FInalMockup.svg 1052w&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Happening now will let the user know of the meetings happening currently&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This link would also allow the user to go to the IRC.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The widget also has suggested meetings which could be based on the frequency of visits to a particular meetings (based on meetbot logs)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two different calendar views(e.g weekly and monthly) which gives more control to the user. They choose the type of the view depending on their frequency of meetings.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;choice-of-color-scheme&quot;&gt;Choice of Color Scheme&lt;/h1&gt;
+
+&lt;p&gt;The color scheme that I chose included the fedora logo blue which I carried throughout the widget. Further, I made use the combination of warm and cool colors to provide differentiation between the pop-ups and buttons. The color scheme used for this widget is split complementary harmony.&lt;/p&gt;
+
+&lt;h1 id=&quot;mobile-desktop-version&quot;&gt;Mobile Desktop Version&lt;/h1&gt;
+
+&lt;p&gt;I designed this widget keeping the mind the mobile responsiveness.&lt;/p&gt;
+
+&lt;h1 id=&quot;points-to-ponder&quot;&gt;Points to ponder&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I believe if we are designing for the open source community, we need to factor in the some of the disadvantages regarding this particular design specially with regards to the people with accessibility issues.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Further, it will be great to have some documentation similar in lines of pattern fly for our fedora project.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Fri, 17 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//2016/06/17/My-First-Week.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/17/My-First-Week.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
