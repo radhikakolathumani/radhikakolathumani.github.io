@@ -6,12 +6,12 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 04:07:04 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 04:07:04 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Jun 2016 01:36:08 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 01:36:08 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>My Second Week</title>
+        <title>PlusPlusWidget</title>
         <description>&lt;p&gt;I am in my second week and I am still getting used to using inkscape. I recently found out that inkscape has many functionalities that photoshop does not have. This was especially useful in case of importing and exporting images by directing selecting the required image or drawing. I found out that it is really useful feature that Adobe generally allows it by exporting the entire document. As I am starting to use it more and more, I figured inkscape to better and faster for vector graphics.&lt;/p&gt;
 
 &lt;p&gt;Another thing I worked on this week was Jekyll, I finally figured a way to upload my images and mockups. For starters Jekyll is a blog aware static website generator which allows users to share and post their material online. I am finding it very easy to use as compared to WordPress or any other blogging websites available online. Further, it has also allowed to me practice using the Linux command line. I am becoming better and faster at it each day. Thankfully due to the number of mistakes I have committed so far.&lt;/p&gt;
@@ -29,11 +29,29 @@
 &lt;p&gt;As a first step to the design process, I understood the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget. &lt;br /&gt;
 Paper mockups&lt;/p&gt;
 
+&lt;h2 id=&quot;paper-mockups&quot;&gt;Paper Mockups&lt;/h2&gt;
+
+&lt;p&gt;I sketched some ideas for the widget and the designs for the symbol “++”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Paper2.1.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Paper2.1.jpg 480w,            /assets/resized/800/Paper2.1.jpg 800w,            /assets/resized/1400/Paper2.1.jpg 1400w,     /assets/Paper2.1.jpg 3264w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Paper2.2.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Paper2.2.jpg 480w,            /assets/resized/800/Paper2.2.jpg 800w,            /assets/resized/1400/Paper2.2.jpg 1400w,     /assets/Paper2.2.jpg 3264w&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;final-design&quot;&gt;Final Design&lt;/h2&gt;
 
-&lt;p&gt;Exploring all the use cases in general, I prototype the final mockups in inkscape.&lt;/p&gt;
+&lt;p&gt;Exploring all the use cases in general, I prototyped the final mockups in inkscape.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/IMG_20160608_093406.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/IMG_20160608_093406.jpg 480w,            /assets/resized/800/IMG_20160608_093406.jpg 800w,            /assets/resized/1400/IMG_20160608_093406.jpg 1400w,     /assets/IMG_20160608_093406.jpg 3264w&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;profile-page-1&quot;&gt;Profile page 1&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Profile-Page.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Profile-Page.png 480w,            /assets/resized/800/Profile-Page.png 800w,     /assets/Profile-Page.png 1032w&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;profile-page-2&quot;&gt;Profile page 2&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Profile-Page2.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Profile-Page2.png 480w,            /assets/resized/800/Profile-Page2.png 800w,     /assets/Profile-Page2.png 856w&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;subscribers-page&quot;&gt;Subscriber’s page&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/SubscriberPage.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/SubscriberPage.png 480w,     /assets/SubscriberPage.png 790w&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -48,12 +66,12 @@ Paper mockups&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;The subscriber page will have a karma notification in the stream. Whereas for the owner’s page, the stream will indicate the current karma for that user.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;5.I followed the same color scheme as per the fedora design guidelines and the font used is open sans.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Lastly, I have designed the widget keeping in mind the mobile responsiveness.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I followed the same color scheme as per the fedora design guidelines and the font used is open sans.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lastly, I have designed the widget keeping in mind the mobile responsiveness.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Moving on, I do have some improvements that I can think of in this design&lt;/p&gt;
@@ -75,9 +93,85 @@ Paper mockups&lt;/p&gt;
 &lt;p&gt;I followed the standard design guidelines for font and color palette for fedora.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 17 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://radhikakolathumani.github.io//2016/06/17/issue-51.html</link>
-        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/17/issue-51.html</guid>
+        <pubDate>Sun, 19 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//2016/06/19/issue-51.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/19/issue-51.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Release cycle</title>
+        <description>&lt;p&gt;The third week, I spent my time working on the &lt;a href=&quot;https://pagure.io/fedora-hubs/issue/63&quot;&gt;release cycle issue&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
+
+&lt;p&gt;The idea was to depict the fedora 24 release cycle for the web and the mobile version.&lt;/p&gt;
+
+&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
+
+&lt;p&gt;I read up the document on how the release document works in the fedora 24 release cycle: &lt;a href=&quot;https://fedoraproject.org/wiki/Releases/24/Schedule&quot;&gt;Schedule&lt;/a&gt; and &lt;a href=&quot;https://fedorapeople.org/groups/schedule/f-24/f-24-devel-tasks.html&quot;&gt;Task list&lt;/a&gt;. I had realized that the detailed milestone document had the same dates. After a quick discussion with pingou and mo, we figured that the final dates matter the most. This cycle was represented as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Branching&lt;/li&gt;
+  &lt;li&gt;Alpha freeze starts&lt;/li&gt;
+  &lt;li&gt;Alpha release&lt;/li&gt;
+  &lt;li&gt;Alpha freeze ends&lt;/li&gt;
+  &lt;li&gt;Beta freeze starts&lt;/li&gt;
+  &lt;li&gt;Beta release&lt;/li&gt;
+  &lt;li&gt;Beta freeze ends&lt;/li&gt;
+  &lt;li&gt;Release freeze starts&lt;/li&gt;
+  &lt;li&gt;Release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;paper-mockups&quot;&gt;Paper Mockups&lt;/h2&gt;
+
+&lt;p&gt;I quickly sketched out some ideas for the mockups as shown below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Paper3.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Paper3.jpg 480w,            /assets/resized/800/Paper3.jpg 800w,            /assets/resized/1400/Paper3.jpg 1400w,     /assets/Paper3.jpg 3264w&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;final-design&quot;&gt;Final Design&lt;/h2&gt;
+
+&lt;p&gt;I figured that showing the showing the milestones accurately would be easy as compared to showing the detailed version of the release cycle. Further, the breadcrumb navigation pattern would be easy to show the timeline between the different cycle stages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/InfoReleaseCycle.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/InfoReleaseCycle.png 480w,            /assets/resized/800/InfoReleaseCycle.png 800w,            /assets/resized/1400/InfoReleaseCycle.png 1400w,     /assets/InfoReleaseCycle.png 1523w&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile-design&quot;&gt;Mobile design&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Mobile-View.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Mobile-View.png 480w,            /assets/resized/800/Mobile-View.png 800w,            /assets/resized/1400/Mobile-View.png 1400w,     /assets/Mobile-View.png 2285w&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;visual-design&quot;&gt;Visual Design&lt;/h2&gt;
+
+&lt;p&gt;This infographic required the use of principle of closure as evident from the figure below for showing the forward direction. The color palette and fonts are in accordance with the fedora design guidelines.  &lt;br /&gt;
+The use of symbols and dates further explains the stage at which the cycle is in.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Closure.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Closure.png 480w,            /assets/resized/800/Closure.png 800w,     /assets/Closure.png 1019w&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;user-comments&quot;&gt;User Comments&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pagure.io/fedora-hubs/issue/63&quot;&gt;Fedora Issue link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Users had mentioned that the release cycle happens only for a particular day unlike the pattern shown in the picture depicts that the release happened for a lengthy period of time. So I prototyped the newer version showing the arrow for release day smaller than the rest. This helps depicts the time period for which the release happened.&lt;/p&gt;
+
+&lt;h3 id=&quot;iteration-1&quot;&gt;Iteration 1&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/InfoReleaseCycleRework.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/InfoReleaseCycleRework.png 480w,            /assets/resized/800/InfoReleaseCycleRework.png 800w,            /assets/resized/1400/InfoReleaseCycleRework.png 1400w,     /assets/InfoReleaseCycleRework.png 1628w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Further, one particular user did not like the idea of rawhide shown in the picture. But I wanted to include the master (rawhide) for the purpose of explaining the branch and master. So I deemphasized the master by reducing the size and making current branch cycle more prominent.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-update&quot;&gt;Jekyll Update&lt;/h2&gt;
+
+&lt;p&gt;I had problems with the resizing the images in jekyll and figured installing the jekyll responsive plugin would help with the resizing of the images. However I realized that github (on which I hosted the website) does not support the required plugin.&lt;/p&gt;
+
+&lt;p&gt;I solved this issue by building the jekyll website locally first and just pushed the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder contents to Github.&lt;/p&gt;
+
+&lt;h2 id=&quot;fedora-bootstrap&quot;&gt;Fedora Bootstrap&lt;/h2&gt;
+
+&lt;p&gt;I had attended the new pattern fly website release this week, I really the liked the idea of vertical navbar for navigation. After using the website I wanted to have the same level of documentation for fedora bootsrap as they have for patten fly. I discussed this idea with mo and she wanted me to work on the idea for the coming week.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//2016/06/19/Release-Cycle.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/19/Release-Cycle.html</guid>
         
         
       </item>
@@ -86,11 +180,11 @@ Paper mockups&lt;/p&gt;
         <title>My First Week</title>
         <description>&lt;p&gt;The first week at Redhat was an amazing learning experience in which I  spent time getting familiarized with the  fedora ecosystem. For starters fedora hubs is like collaboration and communication tool which allows both developers and non-developers to easily share ideas and contribute to the open source community.&lt;/p&gt;
 
-&lt;h1 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h1&gt;
+&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
 
 &lt;p&gt;I was assigned some issues to resolve in the fedora-hubs project. Issues category includes ideas or any other problem that needs to be resolved. These issues are discussed in pagure, a (much like github) channel for hosting Fedora projects. The first issue that was assigned to me was to design a personal calendar for the subscriber’s personal hub page. The link can be found here https://pagure.io/fedora-hubs/issue/91 (requires a FAS account login). For this process, I followed the User Centered design methodology.&lt;/p&gt;
 
-&lt;h1 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h1&gt;
+&lt;h2 id=&quot;brainstorming&quot;&gt;Brainstorming&lt;/h2&gt;
 
 &lt;p&gt;Mo (My awesome mentor at Redhat ) and I initially brainstormed about the initial design use cases and edge cases for this widget. Some of the important use cases that were discussed included:&lt;/p&gt;
 
@@ -111,15 +205,17 @@ Paper mockups&lt;/p&gt;
 
 &lt;p&gt;There were some edge cases like changing your attendance to no, IRC integration. But considering how useful that might be to our users, Mo and I thought it will be reasonable enough to implement the important use cases first and then try to incorporate more based on the users feedback on the mockups.&lt;/p&gt;
 
-&lt;h1 id=&quot;target-audience&quot;&gt;Target Audience&lt;/h1&gt;
+&lt;h2 id=&quot;target-audience&quot;&gt;Target Audience&lt;/h2&gt;
 
 &lt;p&gt;As a first step to the design process, I understood the the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget.&lt;/p&gt;
 
-&lt;h1 id=&quot;design-process&quot;&gt;Design Process&lt;/h1&gt;
+&lt;h2 id=&quot;design-process&quot;&gt;Design Process&lt;/h2&gt;
 
 &lt;p&gt;I started the design process by implementing the paper mockups of the calendar widgets. The methodology that I followed can be found here:&lt;/p&gt;
 
-&lt;h1 id=&quot;paper-mockups&quot;&gt;Paper Mockups&lt;/h1&gt;
+&lt;h2 id=&quot;paper-mockups&quot;&gt;Paper Mockups&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Paper1.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/Paper1.jpg 480w,            /assets/resized/800/Paper1.jpg 800w,            /assets/resized/1400/Paper1.jpg 1400w,     /assets/Paper1.jpg 3264w&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The paper mockups that I designed for this process included  two different types of calendar widget mainly I.e monthly view and weekly view. I decided on two different views because it would be easier for the user to see the upcoming meetings for the this week and the next. This weekly view widget is more functional as the meetings happen weekly and it is easier to keep track on all current meetings for the week. Further, the calendar view would give them a glimpse of upcoming meetings in a particular month.&lt;/p&gt;
 
@@ -162,11 +258,10 @@ Paper mockups&lt;/p&gt;
     &lt;p&gt;Further, it will be great to have some documentation similar in lines of pattern fly for our fedora project.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
 </description>
-        <pubDate>Fri, 17 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://radhikakolathumani.github.io//2016/06/17/My-First-Week.html</link>
-        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/17/My-First-Week.html</guid>
+        <pubDate>Sun, 19 Jun 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//2016/06/19/My-First-Week.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//2016/06/19/My-First-Week.html</guid>
         
         
       </item>
