@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Issue 98, HyperKitty, Fedora-Apps</title>
-  <meta name="description" content="This week I focused on iterating on the feedback I received for the previous issu  and worked on the help widget for the hubs. I also found something that ca...">
+  <meta name="description" content="This week I focused on iterating on the feedback I received for the previous issue  and worked on the help widget for the hubs. I also found something that c...">
   
 
   <!-- External libraries -->
@@ -112,17 +112,22 @@
 </section>  
 
 <article class="post-content">
-  <p>This week I focused on iterating on the feedback I received for the previous <a href="https://pagure.io/fedora-hubs/issue/63">issu</a>  and worked on the <a href="https://pagure.io/fedora-hubs/issue/98">help widget for the hubs</a>. I also found something that caught my interest and wanted to improve the design of the <a href="https://apps.fedoraproject.org/">Fedora Apps website</a>. The hyper kitty hereustics evaluation was also conducted by me for the purpose of evaluating the design choices for the website.</p>
+  <p>This week I focused on iterating on the feedback I received for the previous <a href="https://pagure.io/fedora-hubs/issue/63">issue</a>  and worked on the <a href="https://pagure.io/fedora-hubs/issue/98">help widget for the hubs</a>. I also found something that caught my interest and wanted to improve the design of the <a href="https://apps.fedoraproject.org/">Fedora Apps website</a>. Lastly, I also conducted hyper kitty’s heuristics evaluation for the purpose of evaluating the design choices for the website.</p>
 
 <h1 id="issue-98">Issue 98</h1>
-<p>The user wanted to have the same functionality of #help in IRC as a widget in the hub. This is my basic level of understanding about the help widget.
-The user asks for help in the IRC channel which might be specified in a semi-structured format. The Json has to be populated and it is sent to the back-end. Next, it gets pushed to the help widget where it is converted into a format which is understandable to the user.
-Some use cases that I can think of are:
-* How would the user specify in IRC channel ? (Tagging maybe one solution)
-* How will we display the message in the help widget?
-* What all we would want to show in the help widget?
-* How to configure the help widget?
-* Further, I wanted to keep in mind the developer constraints as well.</p>
+<p>This was the first task I worked on this week. The issue expresses a need for the user to have the same functionality of #help in IRC, as a widget in the hub.</p>
+
+<p>Following is a high-level overview of the flow: The user asks for help in the IRC channel which might be specified in a semi-structured format. The Json has to be populated and it is sent to the back-end. Next, it gets pushed to the help widget where it is converted into a format which is understandable to the user.</p>
+
+<p>Some use cases that I can think of are:</p>
+
+<ol>
+  <li>How would the user specify in IRC channel ? (Tagging maybe one solution)</li>
+  <li>How will we display the message in the help widget?</li>
+  <li>What all we would want to show in the help widget?</li>
+  <li>How to configure the help widget?</li>
+  <li>Further, I wanted to keep in mind the developer constraints as well.</li>
+</ol>
 
 <h2 id="paper-mockups">Paper Mockups</h2>
 
@@ -134,13 +139,12 @@ Some use cases that I can think of are:
 <p><img src="/assets/HelpWidgetFinal.png" alt="" srcset="            /assets/resized/480/HelpWidgetFinal.png 480w,            /assets/resized/800/HelpWidgetFinal.png 800w,            /assets/resized/1400/HelpWidgetFinal.png 1400w,     /assets/HelpWidgetFinal.png 2260w" /></p>
 
 <h1 id="fedora-apps">Fedora-apps</h1>
-<p>This is project that I took on my own as I wanted to make the fedora apps front page easily understandable. Currently the graph deployed seems like it has been</p>
+<p>This is project that I took on my own as I wanted to make the fedora apps front page easily understandable. Currently the categorization of projects is incorrect in the graph. Furthermore, the graph is not easily readable.</p>
 
-<p>For this purpose, mo and I had discussion about the end user we were focusing on for this website. Our primary users include the system administers, developers and users of the open source community. The idea was to clearly indicate the software category and software name. Further there should also be some detailed information on the software when the user clicks it.
-Last week I concentrated on gathering information for categorizing the apps accurately based on the software name, category and the description.</p>
+<p>For this purpose, Mo and I had a discussion to identify the end users of this website. We concluded that our primary users would include system administrators, developers and users of the open source community. To improve the information on this page, we thought to clearly indicate the software category and software name. Furthermore, we decided to show some additional information about the software when the user clicks it. Following these discussions, I started gathering information for categorizing the apps accurately based on the software name, category and their description.</p>
 
 <h1 id="hyperkitty-herustics-evaluation">Hyperkitty Herustics evaluation</h1>
-<p>Last week I also did a hereustics evalaution on Hyper Kitty which a django based archiver for the mailman suite allowing the users to starts new threads, reply to mails and mark them as favorites,  I focused on analysing the wesbite with regards to the principles that we have been taught in class. I will be updating the heuristics in a separate blog post.</p>
+<p>Last week I also did a heuristics evalaution on Hyper Kitty which a django based archiver for the mailman suite allowing the users to starts new threads, reply to mails and mark them as favorites,  I focused on analysing the wesbite with regards to the principles that we have been taught in class. I will be updating the heuristics in a separate blog post.</p>
 
 </article>
 
