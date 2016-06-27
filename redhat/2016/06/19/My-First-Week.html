@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My First Week</title>
+  <meta name="description" content="The first week at Redhat was an amazing learning experience in which I  spent time getting familiarized with the  fedora ecosystem. For starters fedora hubs ...">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/06/19/My-First-Week.html">
+  <link rel="alternate" type="application/rss+xml" title="Radhika Kolathumani" href="http://radhikakolathumani.github.io//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Radhika Kolathumani">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">My First Week</h1>
+      <p class="info">by <strong>Radhika Kolathumani</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 19, 2016</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/redhat">Redhat</a>
+    
+  
+  </div>
+</section>  
+
+<article class="post-content">
+  <p>The first week at Redhat was an amazing learning experience in which I  spent time getting familiarized with the  fedora ecosystem. For starters fedora hubs is like collaboration and communication tool which allows both developers and non-developers to easily share ideas and contribute to the open source community.</p>
+
+<h2 id="problem-statement">Problem Statement</h2>
+
+<p>I was assigned some issues to resolve in the fedora-hubs project. Issues category includes ideas or any other problem that needs to be resolved. These issues are discussed in pagure, a (much like github) channel for hosting Fedora projects. The first issue that was assigned to me was to design a personal calendar for the subscriber’s personal hub page. The link can be found here https://pagure.io/fedora-hubs/issue/91 (requires a FAS account login). For this process, I followed the User Centered design methodology.</p>
+
+<h2 id="brainstorming">Brainstorming</h2>
+
+<p>Mo (My awesome mentor at Redhat ) and I initially brainstormed about the initial design use cases and edge cases for this widget. Some of the important use cases that were discussed included:</p>
+
+<ol>
+  <li>
+    <p>The widget can show all of the meeting times for the teams the user is a member of</p>
+  </li>
+  <li>
+    <p>It will allow the user to click on the meeting in the calendar widget to get more details about the time / place, etc</p>
+  </li>
+  <li>
+    <p>Real time update about the meeting which might be taking place in the hub</p>
+  </li>
+  <li>
+    <p>A meeting suggestion feature which will be based on meetbot logs</p>
+  </li>
+</ol>
+
+<p>There were some edge cases like changing your attendance to no, IRC integration. But considering how useful that might be to our users, Mo and I thought it will be reasonable enough to implement the important use cases first and then try to incorporate more based on the users feedback on the mockups.</p>
+
+<h2 id="target-audience">Target Audience</h2>
+
+<p>As a first step to the design process, I understood the the target audience for the hubs as someone who contributes to the open source community and wants to keep abreast of the all major happenings inside the community.The idea is to update the user about the various development likes events, meetings etc happening throughout the hubs. One simple idea would be through the personal calendar widget.</p>
+
+<h2 id="design-process">Design Process</h2>
+
+<p>I started the design process by implementing the paper mockups of the calendar widgets. The methodology that I followed can be found here:</p>
+
+<h2 id="paper-mockups">Paper Mockups</h2>
+
+<p><img src="/assets/Paper1.jpg" alt="" srcset="            /assets/resized/480/Paper1.jpg 480w,            /assets/resized/800/Paper1.jpg 800w,            /assets/resized/1400/Paper1.jpg 1400w,     /assets/Paper1.jpg 3264w" /></p>
+
+<p>The paper mockups that I designed for this process included  two different types of calendar widget mainly I.e monthly view and weekly view. I decided on two different views because it would be easier for the user to see the upcoming meetings for the this week and the next. This weekly view widget is more functional as the meetings happen weekly and it is easier to keep track on all current meetings for the week. Further, the calendar view would give them a glimpse of upcoming meetings in a particular month.</p>
+
+<h1 id="final-visual-design">Final Visual Design</h1>
+
+<p>For the final visual design I chose some of the old bootstrap-mockups designed by mo and updated them using the ideas given above.</p>
+
+<p><img src="/assets/FInalMockup.svg" alt="" srcset="            /assets/resized/480/FInalMockup.svg 480w,            /assets/resized/800/FInalMockup.svg 800w,     /assets/FInalMockup.svg 1052w" /></p>
+
+<ol>
+  <li>
+    <p>Happening now will let the user know of the meetings happening currently</p>
+  </li>
+  <li>
+    <p>This link would also allow the user to go to the IRC.</p>
+  </li>
+  <li>
+    <p>The widget also has suggested meetings which could be based on the frequency of visits to a particular meetings (based on meetbot logs)</p>
+  </li>
+  <li>
+    <p>Two different calendar views(e.g weekly and monthly) which gives more control to the user. They choose the type of the view depending on their frequency of meetings.</p>
+  </li>
+</ol>
+
+<h1 id="choice-of-color-scheme">Choice of Color Scheme</h1>
+
+<p>The color scheme that I chose included the fedora logo blue which I carried throughout the widget. Further, I made use the combination of warm and cool colors to provide differentiation between the pop-ups and buttons. The color scheme used for this widget is split complementary harmony.</p>
+
+<h1 id="mobile-desktop-version">Mobile Desktop Version</h1>
+
+<p>I designed this widget keeping the mind the mobile responsiveness.</p>
+
+<h1 id="points-to-ponder">Points to ponder</h1>
+
+<ol>
+  <li>
+    <p>I believe if we are designing for the open source community, we need to factor in the some of the disadvantages regarding this particular design specially with regards to the people with accessibility issues.</p>
+  </li>
+  <li>
+    <p>Further, it will be great to have some documentation similar in lines of pattern fly for our fedora project.</p>
+  </li>
+</ol>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'radhikak';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Radhika Kolathumani</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:rkolathu@redhat.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rkolathu@redhat.com</span>
+          </a>
+        </li>
+
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Hi all, I am currently interning at Redhat for the summer in User Experience for the fedora project. I have started this blog to document my weekly experiences doing design challenges at redhat.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+
+
+  </body>
+
+</html>

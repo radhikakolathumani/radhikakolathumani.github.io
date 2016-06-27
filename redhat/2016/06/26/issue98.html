@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Issue 98, HyperKitty, Fedora-Apps</title>
+  <meta name="description" content="This week I focused on iterating on the feedback I received for the previous issu  and worked on the help widget for the hubs. I also found something that ca...">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/06/26/issue98.html">
+  <link rel="alternate" type="application/rss+xml" title="Radhika Kolathumani" href="http://radhikakolathumani.github.io//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Radhika Kolathumani">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Issue 98, HyperKitty, Fedora-Apps</h1>
+      <p class="info">by <strong>Radhika Kolathumani</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 26, 2016</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/redhat">Redhat</a>
+    
+  
+  </div>
+</section>  
+
+<article class="post-content">
+  <p>This week I focused on iterating on the feedback I received for the previous <a href="https://pagure.io/fedora-hubs/issue/63">issu</a>  and worked on the <a href="https://pagure.io/fedora-hubs/issue/98">help widget for the hubs</a>. I also found something that caught my interest and wanted to improve the design of the <a href="https://apps.fedoraproject.org/">Fedora Apps website</a>. The hyper kitty hereustics evaluation was also conducted by me for the purpose of evaluating the design choices for the website.</p>
+
+<h1 id="issue-98">Issue 98</h1>
+<p>The user wanted to have the same functionality of #help in IRC as a widget in the hub. This is my basic level of understanding about the help widget.
+The user asks for help in the IRC channel which might be specified in a semi-structured format. The Json has to be populated and it is sent to the back-end. Next, it gets pushed to the help widget where it is converted into a format which is understandable to the user.
+Some use cases that I can think of are:
+* How would the user specify in IRC channel ? (Tagging maybe one solution)
+* How will we display the message in the help widget?
+* What all we would want to show in the help widget?
+* How to configure the help widget?
+* Further, I wanted to keep in mind the developer constraints as well.</p>
+
+<h2 id="paper-mockups">Paper Mockups</h2>
+
+<p><img src="/assets/IMG_20160626_191958.jpg" alt="" srcset="            /assets/resized/480/IMG_20160626_191958.jpg 480w,            /assets/resized/800/IMG_20160626_191958.jpg 800w,            /assets/resized/1400/IMG_20160626_191958.jpg 1400w,     /assets/IMG_20160626_191958.jpg 3264w" /></p>
+
+<h2 id="final-design">Final Design</h2>
+<p>In the final design I followed the fedora guidelines and design standards for this project. The final design is provided below and feedback on the design can be provided <a href="https://pagure.io/fedora-hubs/issue/98">here</a></p>
+
+<p><img src="/assets/HelpWidgetFinal.png" alt="" srcset="            /assets/resized/480/HelpWidgetFinal.png 480w,            /assets/resized/800/HelpWidgetFinal.png 800w,            /assets/resized/1400/HelpWidgetFinal.png 1400w,     /assets/HelpWidgetFinal.png 2260w" /></p>
+
+<h1 id="fedora-apps">Fedora-apps</h1>
+<p>This is project that I took on my own as I wanted to make the fedora apps front page easily understandable. Currently the graph deployed seems like it has been</p>
+
+<p>For this purpose, mo and I had discussion about the end user we were focusing on for this website. Our primary users include the system administers, developers and users of the open source community. The idea was to clearly indicate the software category and software name. Further there should also be some detailed information on the software when the user clicks it.
+Last week I concentrated on gathering information for categorizing the apps accurately based on the software name, category and the description.</p>
+
+<h1 id="hyperkitty-herustics-evaluation">Hyperkitty Herustics evaluation</h1>
+<p>Last week I also did a hereustics evalaution on Hyper Kitty which a django based archiver for the mailman suite allowing the users to starts new threads, reply to mails and mark them as favorites,  I focused on analysing the wesbite with regards to the principles that we have been taught in class. I will be updating the heuristics in a separate blog post.</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'radhikak';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Radhika Kolathumani</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:rkolathu@redhat.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rkolathu@redhat.com</span>
+          </a>
+        </li>
+
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Hi all, I am currently interning at Redhat for the summer in User Experience for the fedora project. I have started this blog to document my weekly experiences doing design challenges at redhat.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+
+
+  </body>
+
+</html>

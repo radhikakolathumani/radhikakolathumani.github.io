@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Release cycle</title>
+  <meta name="description" content="The third week, I spent my time working on the release cycle issue">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/06/19/Release-Cycle.html">
+  <link rel="alternate" type="application/rss+xml" title="Radhika Kolathumani" href="http://radhikakolathumani.github.io//feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Radhika Kolathumani">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Release cycle</h1>
+      <p class="info">by <strong>Radhika Kolathumani</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 19, 2016</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/redhat">Redhat</a>
+    
+  
+  </div>
+</section>  
+
+<article class="post-content">
+  <p>The third week, I spent my time working on the <a href="https://pagure.io/fedora-hubs/issue/63">release cycle issue</a></p>
+
+<h2 id="problem-statement">Problem Statement</h2>
+
+<p>The idea was to depict the fedora 24 release cycle for the web and the mobile version.</p>
+
+<h2 id="brainstorming">Brainstorming</h2>
+
+<p>I read up the document on how the release document works in the fedora 24 release cycle: <a href="https://fedoraproject.org/wiki/Releases/24/Schedule">Schedule</a> and <a href="https://fedorapeople.org/groups/schedule/f-24/f-24-devel-tasks.html">Task list</a>. I had realized that the detailed milestone document had the same dates. After a quick discussion with pingou and mo, we figured that the final dates matter the most. This cycle was represented as follows:</p>
+
+<ul>
+  <li>Branching</li>
+  <li>Alpha freeze starts</li>
+  <li>Alpha release</li>
+  <li>Alpha freeze ends</li>
+  <li>Beta freeze starts</li>
+  <li>Beta release</li>
+  <li>Beta freeze ends</li>
+  <li>Release freeze starts</li>
+  <li>Release</li>
+</ul>
+
+<h2 id="paper-mockups">Paper Mockups</h2>
+
+<p>I quickly sketched out some ideas for the mockups as shown below</p>
+
+<p><img src="/assets/Paper3.jpg" alt="" srcset="            /assets/resized/480/Paper3.jpg 480w,            /assets/resized/800/Paper3.jpg 800w,            /assets/resized/1400/Paper3.jpg 1400w,     /assets/Paper3.jpg 3264w" /></p>
+
+<h2 id="final-design">Final Design</h2>
+
+<p>I figured that showing the showing the milestones accurately would be easy as compared to showing the detailed version of the release cycle. Further, the breadcrumb navigation pattern would be easy to show the timeline between the different cycle stages.</p>
+
+<p><img src="/assets/InfoReleaseCycle.png" alt="" srcset="            /assets/resized/480/InfoReleaseCycle.png 480w,            /assets/resized/800/InfoReleaseCycle.png 800w,            /assets/resized/1400/InfoReleaseCycle.png 1400w,     /assets/InfoReleaseCycle.png 1523w" /></p>
+
+<h3 id="mobile-design">Mobile design</h3>
+
+<p><img src="/assets/Mobile-View.png" alt="" srcset="            /assets/resized/480/Mobile-View.png 480w,            /assets/resized/800/Mobile-View.png 800w,            /assets/resized/1400/Mobile-View.png 1400w,     /assets/Mobile-View.png 2285w" /></p>
+
+<h2 id="visual-design">Visual Design</h2>
+
+<p>This infographic required the use of principle of closure as evident from the figure below for showing the forward direction. The color palette and fonts are in accordance with the fedora design guidelines.  <br />
+The use of symbols and dates further explains the stage at which the cycle is in.</p>
+
+<p><img src="/assets/Closure.png" alt="" srcset="            /assets/resized/480/Closure.png 480w,            /assets/resized/800/Closure.png 800w,     /assets/Closure.png 1019w" /></p>
+
+<h2 id="user-comments">User Comments</h2>
+
+<p><a href="https://pagure.io/fedora-hubs/issue/63">Fedora Issue link</a></p>
+
+<p>Users had mentioned that the release cycle happens only for a particular day unlike the pattern shown in the picture depicts that the release happened for a lengthy period of time. So I prototyped the newer version showing the arrow for release day smaller than the rest. This helps depicts the time period for which the release happened.</p>
+
+<h3 id="iteration-1">Iteration 1</h3>
+
+<p><img src="/assets/InfoReleaseCycleRework.png" alt="" srcset="            /assets/resized/480/InfoReleaseCycleRework.png 480w,            /assets/resized/800/InfoReleaseCycleRework.png 800w,            /assets/resized/1400/InfoReleaseCycleRework.png 1400w,     /assets/InfoReleaseCycleRework.png 1628w" /></p>
+
+<p>Further, one particular user did not like the idea of rawhide shown in the picture. But I wanted to include the master (rawhide) for the purpose of explaining the branch and master. So I deemphasized the master by reducing the size and making current branch cycle more prominent.</p>
+
+<h2 id="jekyll-update">Jekyll Update</h2>
+
+<p>I had problems with the resizing the images in jekyll and figured installing the jekyll responsive plugin would help with the resizing of the images. However I realized that github (on which I hosted the website) does not support the required plugin.</p>
+
+<p>I solved this issue by building the jekyll website locally first and just pushed the <code class="highlighter-rouge">_site</code> folder contents to Github.</p>
+
+<h2 id="fedora-bootstrap">Fedora Bootstrap</h2>
+
+<p>I had attended the new pattern fly website release this week, I really the liked the idea of vertical navbar for navigation. After using the website I wanted to have the same level of documentation for fedora bootsrap as they have for patten fly. I discussed this idea with mo and she wanted me to work on the idea for the coming week.</p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'radhikak';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Radhika Kolathumani</h3>
+
+    <div class="site-navigation">
+      
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:rkolathu@redhat.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">rkolathu@redhat.com</span>
+          </a>
+        </li>
+
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Hi all, I am currently interning at Redhat for the summer in User Experience for the fedora project. I have started this blog to document my weekly experiences doing design challenges at redhat.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+  // Syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+
+
+  </body>
+
+</html>
