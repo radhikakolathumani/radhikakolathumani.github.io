@@ -6,9 +6,34 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2016 00:15:44 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 00:15:44 -0400</lastBuildDate>
+    <pubDate>Tue, 05 Jul 2016 03:44:54 -0400</pubDate>
+    <lastBuildDate>Tue, 05 Jul 2016 03:44:54 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>The Summit and the Bodhi</title>
+        <description>&lt;p&gt;This week was an interesting week as I got to attend the summit talks, participated in a remote usability testing and finally was awed by my mentor Mo’s storytelling capabilities!&lt;/p&gt;
+
+&lt;p&gt;I started off this week by working on feedback for the &lt;a href=&quot;https://pagure.io/fedora-hubs/issue/91&quot;&gt;calendar widget&lt;/a&gt; and &lt;a href=&quot;https://pagure.io/fedora-hubs/issue/63&quot;&gt;release cycle&lt;/a&gt;. This was my third iteration and I was making sure that I had incorporated the user comments and feedback accurately. The feedback for the calendar widget mainly involved correcting the visual layout of the widget. So far I had been concentrating a lot on interaction design and developer constraints. I wanted to spend time and improve my visual design skills. The third iterative feedback focused mainly on improving the visual aspects of the design. For the purpose of the improvements, I researched several UI patterns online to gather some inspiration for the rework. After researching online, I figured that the minimalist design approach with the use of one main color for highlights would work well for the feedback. I tried this approach keeping in mind all the use cases that I have incorporated so far. Thus, the end iterative design could be seen here in the links listed above. I am hoping that the users will like the new approach and will provide the feedback for the widgets accordingly.&lt;/p&gt;
+
+&lt;p&gt;Another interesting discussion that I had this week was with my mentor Mo and Ryan Lerch on Bodhi. Bodhi facilities the process of publishing updates for Fedora-based software distribution system. My understanding of Bodhi was limited to knowing that it is just a build and release system. During our discussion, Mo’s explanation was what struck me to be one of the best available descriptions of the system. She explained to me to think of Bodhi as an organic potato farm. The farm will harvest these potatoes and transport them to the nearest supermarket. After reaching the market,  each potato is thoroughly inspected for quality. This is usually done by the quality inspectors who vote and mark each potato for its quality. Translating this to the software jargon, several software packages (potatoes) are marked for their quality in the scale of 1-3 with 3 being the highest. The potato inspectors, in this case, are the release engineers who vote for the quality of each and every software before its release. Supporting them would be users from open source community who can also participate in the voting process. Whoa! Clear and succinct explanation! I hope I had the capability to come up with such great explanations which could be useful for even a seven-year-old!. Moving on, I will be working towards finding my potato inspectors the coming week for user research.&lt;/p&gt;
+
+&lt;p&gt;As for the fedora-bootstrap, I had started adding the necessary components to the index.html. But I am unable to push it to pagure as I am getting a 403 error. This might be due to the fact that I do not have the right permissions. I will be working on solving this issue next week.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I completed my heuristics on Hyperkitty. I will be posting the recommendations on this blog next week. Further, I also had a chance to participate in a remote usability testing over blue jeans. It was a good learning experience as I got to know how people perceive a particular design choice. Their feedback and suggestions were invaluable to the design process.&lt;/p&gt;
+
+&lt;p&gt;Lastly, with all the action happening at the summit, I did not want to miss a single broadcast at the Westford office. However, I was able to attend only one session this week by Corinne Warnshuis, Executive Director of “Girl Develop It”. Nevertheless, I was doing my part by retweeting some of my manager Paul’s tweets :P !.&lt;/p&gt;
+
+&lt;p&gt;More on this discussion by Corrinne, I applaud her efforts into making develop girl it a force to reckon with within the community. I myself was a part of “Girl Develop It” in the Seattle/Ann Arbor area and used to attend their casual meetups. I remember when I had just started to learn to code, I was afraid of asking for help. Even if I am stuck, it was hard to find someone willing to understand and provide the right guidance. “Girl Develop It” made that learning process easier for me by providing the right mentorship and guidance throughout my earlier attempts at coding. Not only I was receiving feedback but I had similar people like me trying to understand and develop confidence while learning to code. During her talk at the Summit too, she mentioned about some success stories that had helped many women across the United States. I attended this talk along with women who were a part of the Women Leadership Community-Westford. Further, I would like to thank Garima (Performance Team) for putting all the efforts to arranging this meetup and discussion for us that day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jul 2016 10:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/07/03/summit-and-bodhi.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/07/03/summit-and-bodhi.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>Issue 98, HyperKitty, Fedora-Apps</title>
