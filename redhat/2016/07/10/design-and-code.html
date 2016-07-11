@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Issue 98, HyperKitty, Fedora-Apps</title>
-  <meta name="description" content="This week I focused on iterating on the feedback I received for the previous issue  and worked on the help widget for the hubs. I also found something that c...">
+  <title>Design prototypes</title>
+  <meta name="description" content="Last week my mentor had suggested that it would be great if I am able to code the front end for the designs that I had implemented. I thought it would be a g...">
   
 
   <!-- External libraries -->
@@ -44,7 +44,7 @@
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/06/26/issue98.html">
+  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/07/10/design-and-code.html">
   <link rel="alternate" type="application/rss+xml" title="Radhika Kolathumani" href="http://radhikakolathumani.github.io//feed.xml" />
 </head>
 
@@ -88,7 +88,7 @@
 <div class="post-header-container " >
   <div class="scrim ">
     <header class="post-header">
-      <h1 class="title">Issue 98, HyperKitty, Fedora-Apps</h1>
+      <h1 class="title">Design prototypes</h1>
       <p class="info">by <strong>Radhika Kolathumani</strong></p>
     </header>
   </div>
@@ -103,7 +103,7 @@
  
 
 <section class="post-meta">
-  <div class="post-date">June 26, 2016</div>
+  <div class="post-date">July 10, 2016</div>
   <div class="post-categories">
   in 
     
@@ -114,39 +114,23 @@
 </section>  
 
 <article class="post-content">
-  <p>This week I focused on iterating on the feedback I received for the previous <a href="https://pagure.io/fedora-hubs/issue/63">issue</a>  and worked on the <a href="https://pagure.io/fedora-hubs/issue/98">help widget for the hubs</a>. I also found something that caught my interest and wanted to improve the design of the <a href="https://apps.fedoraproject.org/">Fedora Apps website</a>. Lastly, I also conducted hyper kitty’s heuristics evaluation for the purpose of evaluating the design choices for the website.</p>
+  <p>Last week my mentor had suggested that it would be great if I am able to code the front end for the designs that I had implemented. I thought it would be a great way to see how my designs would be developed and implemented.</p>
 
-<h1 id="issue-98">Issue 98</h1>
-<p>This was the first task I worked on this week. The issue expresses a need for the user to have the same functionality of #help in IRC, as a widget in the hub.</p>
+<p>For this week, I concentrated on implementing the visual rework as well the front end code for the issues 98 and 63.</p>
 
-<p>Following is a high-level overview of the flow: The user asks for help in the IRC channel which might be specified in a semi-structured format. The Json has to be populated and it is sent to the back-end. Next, it gets pushed to the help widget where it is converted into a format which is understandable to the user.</p>
+<p>For the issue 98, I constructed the accordion through javascript and implemented the drop downs through chosen.js. I had to be super careful about using the js libraries online as I had make sure they had appropriate licenses. The chosen.js that I have used for this project is under MIT license. Even though I ran into multiple problems in the style sheet,I managed to implement the first few elements of the visual design. Further, the rework for the visual design and the code for implementing it can be seen here.</p>
 
-<p>Some use cases that I can think of are:</p>
+<p><a href="http://helphelp.s3-website-us-west-2.amazonaws.com/">prototype link</a></p>
 
-<ol>
-  <li>How would the user specify in IRC channel ? (Tagging maybe one solution)</li>
-  <li>How will we display the message in the help widget?</li>
-  <li>What all we would want to show in the help widget?</li>
-  <li>How to configure the help widget?</li>
-  <li>Further, I wanted to keep in mind the developer constraints as well.</li>
-</ol>
+<p><img src="/assets/HelpWidgetRework.png" alt="" srcset="            /assets/resized/480/HelpWidgetRework.png 480w,            /assets/resized/800/HelpWidgetRework.png 800w,            /assets/resized/1400/HelpWidgetRework.png 1400w,     /assets/HelpWidgetRework.png 2260w" /></p>
 
-<h2 id="paper-mockups">Paper Mockups</h2>
+<p>Further, I still have to work on implementing the chosen.js correctly since I want the dropdown to have the text input functionality as well. I will be working on this coming week.</p>
 
-<p><img src="/assets/IMG_20160626_191958.jpg" alt="" srcset="            /assets/resized/480/IMG_20160626_191958.jpg 480w,            /assets/resized/800/IMG_20160626_191958.jpg 800w,            /assets/resized/1400/IMG_20160626_191958.jpg 1400w,     /assets/IMG_20160626_191958.jpg 3264w" /></p>
+<p>Another issue that I had worked this week included the release cycle. I implemented this by using a responsive rectangle and overlayed all the images over it. So far the output looks like this. There are some portions that are not responsive yet.</p>
 
-<h2 id="final-design">Final Design</h2>
-<p>In the final design I followed the fedora guidelines and design standards for this project. The final design is provided below and feedback on the design can be provided <a href="https://pagure.io/fedora-hubs/issue/98">here</a></p>
+<p><a href="http://releasecycle.s3-website-us-west-2.amazonaws.com/">prototype link - tested only on firefox so far</a></p>
 
-<p><img src="/assets/HelpWidgetFinal.png" alt="" srcset="            /assets/resized/480/HelpWidgetFinal.png 480w,            /assets/resized/800/HelpWidgetFinal.png 800w,            /assets/resized/1400/HelpWidgetFinal.png 1400w,     /assets/HelpWidgetFinal.png 2260w" /></p>
-
-<h1 id="fedora-apps">Fedora-apps</h1>
-<p>This is project that I took on my own as I wanted to make the fedora apps front page easily understandable. Currently the categorization of projects is incorrect in the graph. Furthermore, the graph is not easily readable.</p>
-
-<p>For this purpose, Mo and I had a discussion to identify the end users of this website. We concluded that our primary users would include system administrators, developers and users of the open source community. To improve the information on this page, we thought to clearly indicate the software category and software name. Furthermore, we decided to show some additional information about the software when the user clicks it. Following these discussions, I started gathering information for categorizing the apps accurately based on the software name, category and their description.</p>
-
-<h1 id="hyperkitty-herustics-evaluation">Hyperkitty Herustics evaluation</h1>
-<p>Last week I also did a heuristics evalaution on Hyper Kitty which a django based archiver for the mailman suite allowing the users to starts new threads, reply to mails and mark them as favorites,  I focused on analysing the wesbite with regards to the principles that we have been taught in class. I will be updating the heuristics in a separate blog post.</p>
+<p>My next week goal would be to make the slider stop when the date of release/ freeze has been reached.  I am thinking this could be implemented by using the detailed timeline document which I referred from the fedora release cycle wiki. The slider would act like a timer which could be implemented by js. Further, there are some portions of this release cycle which are not yet fully responsive. I will be addressing that as well.</p>
 
 </article>
 

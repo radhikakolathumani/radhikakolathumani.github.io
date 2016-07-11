@@ -6,9 +6,38 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jul 2016 03:44:54 -0400</pubDate>
-    <lastBuildDate>Tue, 05 Jul 2016 03:44:54 -0400</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2016 04:35:24 -0400</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2016 04:35:24 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Design prototypes</title>
+        <description>&lt;p&gt;Last week my mentor had suggested that it would be great if I am able to code the front end for the designs that I had implemented. I thought it would be a great way to see how my designs would be developed and implemented.&lt;/p&gt;
+
+&lt;p&gt;For this week, I concentrated on implementing the visual rework as well the front end code for the issues 98 and 63.&lt;/p&gt;
+
+&lt;p&gt;For the issue 98, I constructed the accordion through javascript and implemented the drop downs through chosen.js. I had to be super careful about using the js libraries online as I had make sure they had appropriate licenses. The chosen.js that I have used for this project is under MIT license. Even though I ran into multiple problems in the style sheet,I managed to implement the first few elements of the visual design. Further, the rework for the visual design and the code for implementing it can be seen here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://helphelp.s3-website-us-west-2.amazonaws.com/&quot;&gt;prototype link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/HelpWidgetRework.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/HelpWidgetRework.png 480w,            /assets/resized/800/HelpWidgetRework.png 800w,            /assets/resized/1400/HelpWidgetRework.png 1400w,     /assets/HelpWidgetRework.png 2260w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Further, I still have to work on implementing the chosen.js correctly since I want the dropdown to have the text input functionality as well. I will be working on this coming week.&lt;/p&gt;
+
+&lt;p&gt;Another issue that I had worked this week included the release cycle. I implemented this by using a responsive rectangle and overlayed all the images over it. So far the output looks like this. There are some portions that are not responsive yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://releasecycle.s3-website-us-west-2.amazonaws.com/&quot;&gt;prototype link - tested only on firefox so far&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My next week goal would be to make the slider stop when the date of release/ freeze has been reached.  I am thinking this could be implemented by using the detailed timeline document which I referred from the fedora release cycle wiki. The slider would act like a timer which could be implemented by js. Further, there are some portions of this release cycle which are not yet fully responsive. I will be addressing that as well.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/07/10/design-and-code.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/07/10/design-and-code.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>The Summit and the Bodhi</title>
