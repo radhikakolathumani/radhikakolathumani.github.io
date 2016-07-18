@@ -6,9 +6,53 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jul 2016 04:35:24 -0400</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2016 04:35:24 -0400</lastBuildDate>
+    <pubDate>Mon, 18 Jul 2016 02:02:34 -0400</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 02:02:34 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Design Prototypes</title>
+        <description>&lt;p&gt;Last week I focused on prototyping for the help and release cycle widget, of which I finished the release widget.&lt;/p&gt;
+
+&lt;p&gt;Regarding, the help widget, I still have to correct few minor problems with the drop down menu. The problem I am facing is because of the js library (chosen.js) that I have used for prototyping.
+My progress so far is given below:&lt;/p&gt;
+
+&lt;p&gt;Amazon link for progress of both release and help widget here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/i.html&quot;&gt;Release cycle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As for Bodhi, I had conducted some user interviews and had an initial one-on-one user walkthrough this week. As a first step in the process of redesign, I identified my users who were the packagers, testers and release engineers. I had hoped to finish the one-on-one with the identified user base but was unable to do since most of them had been away for the conference. However, I did have one initial session with a testers who uses the website frequently. Thanks to Mo, she helped me find a user immediately for the user walkthrough. During the walkthrough, I made my user use the website and describe the flow. This was an eye opener as I got some real good feedback from him.&lt;/p&gt;
+
+&lt;p&gt;Some of the use-cases that I feel were lacking from his description includes the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;No download link for the koji (he was describing a drop down menu in case of multiple downloads) and command line download link as well&lt;/li&gt;
+  &lt;li&gt;Karma cycle is very confusing as he could not figure out the functionality of the untested button.&lt;/li&gt;
+  &lt;li&gt;No direct contact link to the submitter.&lt;/li&gt;
+  &lt;li&gt;Updates to the bugzilla.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Edge-cases:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Previous searches&lt;/li&gt;
+  &lt;li&gt;Edit the replies to the thread.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was an initial feedback. I however plan to test the system with few more users, specifically with release engineers and packagers. Moreover, I will also be updating the Bodhi redesign wiki page as I proceed further in my process.&lt;/p&gt;
+
+&lt;p&gt;I also attended the patternfly community meeting to better understand their process and the idea behind it. They basically include different components (both from bootstrap as well as their own) after small rigorous sprints. I believe this methodology could be really useful for our fedora-bootsrap.&lt;/p&gt;
+
+&lt;p&gt;Moving on, I also implemented an empty state ui design for our hubs which have not been release yet. I wanted the pattern to be more direct and captivating at the same time. The final design can be seen &lt;a href=&quot;https://pagure.io/fedora-hubs/issue/169&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/07/17/design-prototypes.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/07/17/design-prototypes.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>Design prototypes</title>

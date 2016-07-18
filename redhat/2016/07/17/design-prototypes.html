@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Posts</title>
-  <meta name="description" content="Hi all, I am currently interning at Redhat for the summer in User Experience for the fedora project. I have started this blog to document my weekly experiences doing design challenges at redhat.
-">
+  <title>Design Prototypes</title>
+  <meta name="description" content="Last week I focused on prototyping for the help and release cycle widget, of which I finished the release widget.">
   
 
   <!-- External libraries -->
@@ -45,7 +44,7 @@
 
   <!-- Site styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://radhikakolathumani.github.io//posts/">
+  <link rel="canonical" href="http://radhikakolathumani.github.io//redhat/2016/07/17/design-prototypes.html">
   <link rel="alternate" type="application/rss+xml" title="Radhika Kolathumani" href="http://radhikakolathumani.github.io//feed.xml" />
 </head>
 
@@ -84,85 +83,105 @@
 
 
     <div class="page-content">
-        <div class="wrapper">
-<div class="page">
+        <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Posts</h1>
-  </header>
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Design Prototypes</h1>
+      <p class="info">by <strong>Radhika Kolathumani</strong></p>
+    </header>
+  </div>
+</div>
 
-  <span class="page-divider">
+<div class="wrapper">
+
+ <span class="page-divider">
   <span class="one"></span>
   <span class="two"></span>
 </span>
+ 
 
-
-  <article class="post-content">
+<section class="post-meta">
+  <div class="post-date">July 17, 2016</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/redhat">Redhat</a>
     
   
-  <h2>Redhat</h2>
-  
-    
-      <p class="desc"><em>Redhat internship</em></p>
-    
-  
-  <ul class="posts-list">
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/07/17/design-prototypes.html">Design Prototypes</a>
-      </strong>
-      <span class="post-date">- 17 July 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/07/10/design-and-code.html">Design prototypes</a>
-      </strong>
-      <span class="post-date">- 10 July 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/07/03/summit-and-bodhi.html">The Summit and the Bodhi</a>
-      </strong>
-      <span class="post-date">- 03 July 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/06/26/issue98.html">Issue 98, HyperKitty, Fedora-Apps</a>
-      </strong>
-      <span class="post-date">- 26 June 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/06/19/Release-Cycle.html">Release cycle</a>
-      </strong>
-      <span class="post-date">- 19 June 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/06/19/issue-51.html">PlusPlusWidget</a>
-      </strong>
-      <span class="post-date">- 19 June 2016</span>
-    </li>
-  
-    <li>
-      <strong>
-        <a href="/redhat/2016/06/19/My-First-Week.html">My First Week</a>
-      </strong>
-      <span class="post-date">- 19 June 2016</span>
-    </li>
-  
-  </ul>
-  
+  </div>
+</section>  
 
-<br>
+<article class="post-content">
+  <p>Last week I focused on prototyping for the help and release cycle widget, of which I finished the release widget.</p>
 
-  </article>
+<p>Regarding, the help widget, I still have to correct few minor problems with the drop down menu. The problem I am facing is because of the js library (chosen.js) that I have used for prototyping.
+My progress so far is given below:</p>
+
+<p>Amazon link for progress of both release and help widget here:</p>
+
+<p><a href="https://s3-us-west-2.amazonaws.com/releasecycle/i.html">Release cycle</a></p>
+
+<p>As for Bodhi, I had conducted some user interviews and had an initial one-on-one user walkthrough this week. As a first step in the process of redesign, I identified my users who were the packagers, testers and release engineers. I had hoped to finish the one-on-one with the identified user base but was unable to do since most of them had been away for the conference. However, I did have one initial session with a testers who uses the website frequently. Thanks to Mo, she helped me find a user immediately for the user walkthrough. During the walkthrough, I made my user use the website and describe the flow. This was an eye opener as I got some real good feedback from him.</p>
+
+<p>Some of the use-cases that I feel were lacking from his description includes the following:</p>
+
+<ol>
+  <li>No download link for the koji (he was describing a drop down menu in case of multiple downloads) and command line download link as well</li>
+  <li>Karma cycle is very confusing as he could not figure out the functionality of the untested button.</li>
+  <li>No direct contact link to the submitter.</li>
+  <li>Updates to the bugzilla.</li>
+</ol>
+
+<p>Edge-cases:</p>
+
+<ol>
+  <li>Previous searches</li>
+  <li>Edit the replies to the thread.</li>
+</ol>
+
+<p>This was an initial feedback. I however plan to test the system with few more users, specifically with release engineers and packagers. Moreover, I will also be updating the Bodhi redesign wiki page as I proceed further in my process.</p>
+
+<p>I also attended the patternfly community meeting to better understand their process and the idea behind it. They basically include different components (both from bootstrap as well as their own) after small rigorous sprints. I believe this methodology could be really useful for our fedora-bootsrap.</p>
+
+<p>Moving on, I also implemented an empty state ui design for our hubs which have not been release yet. I wanted the pattern to be more direct and captivating at the same time. The final design can be seen <a href="https://pagure.io/fedora-hubs/issue/169">here</a></p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'radhikak';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
 
 </div>
 </div>
