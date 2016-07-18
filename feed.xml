@@ -6,12 +6,12 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jul 2016 02:02:34 -0400</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 02:02:34 -0400</lastBuildDate>
+    <pubDate>Mon, 18 Jul 2016 09:35:58 -0400</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 09:35:58 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Design Prototypes</title>
+        <title>Design Prototypes - Week 2</title>
         <description>&lt;p&gt;Last week I focused on prototyping for the help and release cycle widget, of which I finished the release widget.&lt;/p&gt;
 
 &lt;p&gt;Regarding, the help widget, I still have to correct few minor problems with the drop down menu. The problem I am facing is because of the js library (chosen.js) that I have used for prototyping.
@@ -19,7 +19,10 @@ My progress so far is given below:&lt;/p&gt;
 
 &lt;p&gt;Amazon link for progress of both release and help widget here:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/i.html&quot;&gt;Release cycle&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/i.html&quot;&gt;Release cycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/helphelp/v2/index.html&quot;&gt;Help Help&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;As for Bodhi, I had conducted some user interviews and had an initial one-on-one user walkthrough this week. As a first step in the process of redesign, I identified my users who were the packagers, testers and release engineers. I had hoped to finish the one-on-one with the identified user base but was unable to do since most of them had been away for the conference. However, I did have one initial session with a testers who uses the website frequently. Thanks to Mo, she helped me find a user immediately for the user walkthrough. During the walkthrough, I made my user use the website and describe the flow. This was an eye opener as I got some real good feedback from him.&lt;/p&gt;
 
