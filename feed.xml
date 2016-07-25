@@ -6,9 +6,38 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jul 2016 09:35:58 -0400</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 09:35:58 -0400</lastBuildDate>
+    <pubDate>Mon, 25 Jul 2016 00:49:31 -0400</pubDate>
+    <lastBuildDate>Mon, 25 Jul 2016 00:49:31 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Final phase</title>
+        <description>&lt;h1 id=&quot;prototypes&quot;&gt;Prototypes&lt;/h1&gt;
+
+&lt;p&gt;Last week I finished up the prototype for the &lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/v4/i.html&quot;&gt;release widget fully&lt;/a&gt; and started coding the calendar widget &lt;a href=&quot;https://s3-us-west-2.amazonaws.com/calendarwidget/i.html&quot;&gt;monthly view&lt;/a&gt; and &lt;a href=&quot;https://s3-us-west-2.amazonaws.com/calendarwidget/weekly/i.html&quot;&gt;weekly view&lt;/a&gt;. So far the implementation consists of the main view and weekly view (link). I am hoping to finish this by Monday evening and concentrate on prototyping the empty state widget.&lt;/p&gt;
+
+&lt;h1 id=&quot;more-issues&quot;&gt;More issues!&lt;/h1&gt;
+
+&lt;p&gt;I have taken some more issues for myself to solve this week, one includes a ticket in design trac namely “This week in fedora” and another which involves mobile prototyping and mockups for the hubs project. This seems like an interesting challenge and I hope to concentrate on it the coming week.&lt;/p&gt;
+
+&lt;h1 id=&quot;hyperkitty&quot;&gt;Hyperkitty&lt;/h1&gt;
+
+&lt;p&gt;I finally finished up the hyperkitty heuristics evaluation report after getting my feedback! The report can be viewed &lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/Document+9(2).pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bodhi&quot;&gt;Bodhi&lt;/h1&gt;
+
+&lt;p&gt;I finally had a chat with Luke about the redesign project in which I explained him about the progress we have done so far. He particularly liked the idea about the koji link in the web ui so that it becomes easier to download the packages, Currently users have to go to another website to download the packages. Further, he suggested to open an RFE for this idea as well. The RFE can be found &lt;a href=&quot;https://github.com/fedora-infra/bodhi/issues/874&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Further, the first draft of pre-interview survey is also ready and can be viewed &lt;a href=&quot;https://s3-us-west-2.amazonaws.com/releasecycle/Document+15.pdf&quot;&gt;here&lt;/a&gt;. I am open to suggestions in improving the survey!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jul 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/07/24/Final-phase.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/07/24/Final-phase.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>Design Prototypes - Week 2</title>
