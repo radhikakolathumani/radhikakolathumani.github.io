@@ -6,9 +6,148 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jul 2016 00:49:31 -0400</pubDate>
-    <lastBuildDate>Mon, 25 Jul 2016 00:49:31 -0400</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 09:57:07 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 09:57:07 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>The last stretch</title>
+        <description>&lt;h1 id=&quot;prototypes&quot;&gt;Prototypes&lt;/h1&gt;
+
+&lt;p&gt;In preparation for the flock next week, I tried to improve the prototypes and my Js code. The progress so far has been:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/calendarwidget/v2/i.html&quot;&gt;Calendar widget&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/calendarwidget/emptystate/i.html&quot;&gt;Empty State&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;bodhi&quot;&gt;Bodhi&lt;/h1&gt;
+
+&lt;p&gt;I also concentrated on the bodhi user interview questions which are listed as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please circle which of the following age ranges applies to you:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    1. less than 18
+    2. 18-29   
+    3. 30-94
+    4. 50-64   
+    5. 65+   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;How long have been using fedora?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. less than 1 year
+2. 1-5 years
+3. more than 5 years   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;How often do you use the bodhis web UI?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    a. I dont use it at all    
+    b. Infrequently (once per release / once every 6 months)    
+    c. Sometimes (once per month or so)    
+    d. Frequently (once a week)    
+    c. All the time (more than once a week)    
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;What do you use bodhis WebUI for?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    a. Tracking package updates    
+    b. Upvoting/downvoting updates    
+    c. Its part of my workflow for releasing updates to packages    
+    d. Its part of my testing workflow   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Currently bodhi redirects users to koji for downloading update packages. Would you prefer bodhi to link directly to the package instead of redirecting to koji?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Would a  Bugzilla update widget like the shown below in the mockup would be useful? (Old version and the new version given below)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    a. No I feel the older version was helpful  
+    b. Yes, the new version would be super useful  
+    c. It does not matter, I often check Bugzilla whenever I can myself  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Old version&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/1.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/1.png 480w,            /assets/resized/800/1.png 800w,     /assets/selected/1.png 929w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;New Version&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/2.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/2.png 480w,            /assets/resized/800/2.png 800w,     /assets/selected/2.png 875w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/3.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/3.png 480w,            /assets/resized/800/3.png 800w,     /assets/selected/3.png 905w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/4.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/4.png 480w,            /assets/resized/800/4.png 800w,     /assets/selected/4.png 905w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;While giving karma, have you ever used the middle option as shown in the figure below ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/5.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/5.png 480w,            /assets/resized/800/5.png 800w,     /assets/selected/5.png 860w&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a. No, I have used only +1 and –1 for feedback
+b. Yes I have used it before and I know what it is used for
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;While checking for release updates, how useful was this tab shown below : (called “Release”)  ( Please refer to the tab version )&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/6.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/6.png 480w,            /assets/resized/800/6.png 800w,            /assets/resized/1400/6.png 1400w,     /assets/selected/6.png 1878w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/7.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/7.png 480w,     /assets/selected/7.png 554w&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a. Yes I find it very useful
+b. I know about this tab but I have never found it useful
+c. I don’t know what is this tab used for
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;While using Bodhis web UI, have you ever used the three icons in the “build” row of the page shown below: ( Please refer to the tab version )&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/8.png&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/8.png 480w,     /assets/selected/8.png 660w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/selected/9.png&quot; alt=&quot;&quot; srcset=&quot;     /assets/selected/9.png 312w&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;a. Yes I know about their functionality and used them often
+b. No I have not used at all but I know about their functionality
+c. I have no idea what these are used for
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So far I am brainstorming about the question no 5; I need to think in terms of how the user would be using the widget. For this purpose, I aim to ask at least 2-3 developers and testers about the download widget. The developer that I talked to on Friday was saying he does not have the need for it in the web UI. Even though he does not use the CLI interface. He is fine by using the koji website for downloading the packages.&lt;/p&gt;
+
+&lt;p&gt;However, the testers that I have approached were very keen on having the download option in the web UI itself. So far I feel it will be useful to talk to more people about the option and get their general opinion on the widgets usefulness.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-week-in-fedora&quot;&gt;This week in Fedora&lt;/h1&gt;
+
+&lt;p&gt;Further, for this week in fedora web design project, following is the summary of the progress so far:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It would be useful if we could the add the last week stats to the fedora-community blog itself&lt;/li&gt;
+  &lt;li&gt;The visualization on the top would be a good start, we can add it to the blog&lt;/li&gt;
+  &lt;li&gt;Make it as weekly post in the community blog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lastly, I also attended the FAD workshop this week. This was something fun as I had go to meet people who are interested in learning inkscape. Below are some of the pictures of the event:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fad/1.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/1.jpg 480w,            /assets/resized/800/1.jpg 800w,            /assets/resized/1400/1.jpg 1400w,     /assets/fad/1.jpg 2448w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fad/2.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/2.jpg 480w,            /assets/resized/800/2.jpg 800w,            /assets/resized/1400/2.jpg 1400w,     /assets/fad/2.jpg 2448w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fad/3.jpg&quot; alt=&quot;&quot; srcset=&quot;            /assets/resized/480/3.jpg 480w,            /assets/resized/800/3.jpg 800w,            /assets/resized/1400/3.jpg 1400w,     /assets/fad/3.jpg 2448w&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 02 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/08/02/the-last-stretch.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/08/02/the-last-stretch.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>Final phase</title>
