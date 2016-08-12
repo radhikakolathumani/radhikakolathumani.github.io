@@ -6,9 +6,36 @@
 </description>
     <link>http://radhikakolathumani.github.io//</link>
     <atom:link href="http://radhikakolathumani.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Aug 2016 09:57:07 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 09:57:07 -0400</lastBuildDate>
+    <pubDate>Fri, 12 Aug 2016 12:35:10 -0400</pubDate>
+    <lastBuildDate>Fri, 12 Aug 2016 12:35:10 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Last Day</title>
+        <description>&lt;p&gt;This was my last week at RedHat and I feel I had really good learning experience so far. I am happy that I had great mentors like Maririn Duffy, Ryan Lerch, Paul Frields, Pierre and Sayan who always helped me out whenever needed. For me personally, the biggest advantage has been the opportunity to work with some really wonderful people. Open source allowed me to make connections far outside my normal circle of co-workers. Having access to such a huge pool of talented people was daunting to me at first. I had to deal with issues I have not encountered before, like getting feedback for your design work or working with people from different time zones. But all this was a good learning experience. Working on open source projects allowed me to develop my skills and gain valuable experience working in highly collaborative software project. I learnt how to be able to function as a part of a team and contribute my time not to only to technical tasks but also to several side projects with respect to conferences like FAD, Flock etc. Lastly, I feel the experience that I have gained here will prove invaluable for my future career.&lt;/p&gt;
+
+&lt;p&gt;Moving on, last two weeks, I spent my time getting user feedback for the widgets that I have designed for the fedora-hubs. I talked to 8 users and iterated the design mockups accordingly. The iterations can be viewed here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pagure.io/fedora-hubs/issue/98&quot;&gt;Help Widget&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pagure.io/fedora-hubs/issue/91&quot;&gt;Personal Calendar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pagure.io/fedora-hubs/issue/57&quot;&gt;Plus Widget&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I also finished the survey for Bodhi redesign and the results can be viewed &lt;a href=&quot;https://www.surveymonkey.com/results/SM-T9D3789M/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;With this, I finished my internship on a high note and I hope to contribute more to the open source community when I start my university in the fall.&lt;/p&gt;
+
+&lt;p&gt;Thanks all for the wonderful time :)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://radhikakolathumani.github.io//redhat/2016/08/12/Last-day.html</link>
+        <guid isPermaLink="true">http://radhikakolathumani.github.io//redhat/2016/08/12/Last-day.html</guid>
+        
+        
+        <category>redhat</category>
+        
+      </item>
     
       <item>
         <title>The last stretch</title>
